@@ -2,6 +2,16 @@
 
 * [Meetup Link](https://www.meetup.com/Learn-Swift-HK/events/258756746/)
 
+## Prerequisities 
+Please install the latest Swift 5 Development Snapshot at: (https://swift.org/download/#releases)
+
+Navigate to Swift 5.0 Development >> Xcode
+
+Finally, in Xcode >> Preferences >> Components >> Swift 5.0 Snapshot
+
+Alternatively, you may install Xcode 10.2 Beta 3 that comes with Swift 5 at:
+(https://developer.apple.com/download)
+
 ## Getting Started
 
 - Get started with the reviewing the completed Playground
