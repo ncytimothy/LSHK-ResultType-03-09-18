@@ -66,7 +66,7 @@ print("someString is now: \(someString), and anotherString is now: \(anotherStri
 
 // 1. Use Optionals
 
-let zeroValue = Int("0") // Int
+let zeroValue = Int("0")! // Int
 let nilValue = Int("not a number") // Int? and is nil, but no errors will be shown as it is optional
 
 guard let number = Int("6") else {
