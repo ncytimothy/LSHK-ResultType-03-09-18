@@ -226,7 +226,7 @@ func divideWithAsyncResultType(_ x: Int, _ y: Int, completion: (Result<Int, Divi
     guard y != 0 else {
         return completion(.failure(.zeroDivisor))
     }
-    return completion(.success(x / y))
+    completion(.success(x / y))
 }
 
 divideWithAsyncResultType(10, 0) { (result) in
